@@ -1,10 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import Header from '/components/Header'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './containers/App';
 
+ReactDOM.render(<App />, document.getElementById('app'));
 
-ReactDOM.render(
-    <Header/>,
-    document.getElementById('app')
-)
 
